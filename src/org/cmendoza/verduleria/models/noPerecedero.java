@@ -1,18 +1,18 @@
 package org.cmendoza.verduleria.models;
 
 public class noPerecedero extends Producto{
-    String proteinas;
+    int proteinas;
 
-    public noPerecedero(String nombre, double precio, String proteinas) {
+    public noPerecedero(String nombre, double precio, int proteinas) {
         super(nombre, precio);
         this.proteinas = proteinas;
     }
 
-    public String getProteinas() {
+    public int getProteinas() {
         return proteinas;
     }
 
-    public void setProteinas(String proteinas) {
+    public void setProteinas(int proteinas) {
         this.proteinas = proteinas;
     }
 }
